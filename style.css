@@ -1,0 +1,48 @@
+body{
+    background:rgb(8, 7, 7)
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+div{
+    letter-spacing: 2px;
+}
+.btn{
+    width: 30px;
+    margin: 5px;
+    padding: 25px;
+    outline: none;
+    text-decoration:none ;
+    text-align: center;
+    background: transparent;
+    border: 0.2px solid;
+    box-shadow: 1px 1px ;
+    color: rgb(248, 4, 4);
+    margin:10px;
+    background:rgb(5, 5, 20);
+    border-radius: 20px;
+
+
+
+}
+.btn:hover{
+    background: orange;
+}
+.box input[type="text"]{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background:transparent;
+    text-transform: uppercase;
+    font-size: larger;
+    color: white;
+    
+    
+}
+
+
